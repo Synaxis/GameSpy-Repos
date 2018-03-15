@@ -1,0 +1,19 @@
+///////////////////////////////////////////////////////////////////////////////
+// File:	AuthService.h
+// SDK:		GameSpy Authentication Service SDK
+//
+// Copyright (c) 2017, Arves100 All rights reserved.
+// Released under BSD3 License, see LICENSE for more information
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+
+#ifndef _RETROSPY_AUTHSERVICE_H_
+#define _RETROSPY_AUTHSERVICE_H_
+
+#ifdef GSA_OPEN_AUTHSERVICE
+	#include "AuthServiceOpen.h"
+#else
+	#include "AuthService2007.h"
+#endif
+
+#endif
