@@ -1,0 +1,77 @@
+# Prerequisites
+*.d
+*.db
+*.opendb
+*.suo
+*.DS_Store
+*.filters
+*.user
+*.db-shm
+*.db-wal
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.res
+*.log
+*.tlog
+*.lastbuildstate
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+*.ipch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+src_main/build
+
+baseq2/*.pak
+baseq2/*.cfg
+baseq2/demos
+baseq2/env
+baseq2/maps
+baseq2/models
+baseq2/music
+baseq2/pics
+baseq2/players
+baseq2/save
+baseq2/screenshots
+baseq2/sound
+baseq2/sprites
+baseq2/textures
+baseq2/video/*.cin
+*.lst
+*.bak
+*.tmp
